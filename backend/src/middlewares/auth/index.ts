@@ -1,5 +1,5 @@
 import { getUserByUsername } from "@/models/user/service";
-import { catchException, sendJSONResponse } from "@/utils/helper";
+import { catchException, sendJSONResponse } from "src/utils/helper";
 import { Request, Response, NextFunction } from "express";
 
 export interface CustomRequest extends Request {

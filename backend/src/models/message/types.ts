@@ -1,4 +1,4 @@
-import { MessageStatus } from "@/utils/constants";
+import { MessageStatus } from "src/utils/constants";
 
 export interface IMessage {
   _id: string;

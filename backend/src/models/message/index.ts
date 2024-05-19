@@ -1,4 +1,4 @@
-import { MessageStatus } from "@/utils/constants";
+import { MessageStatus } from "src/utils/constants";
 import { Schema, model } from "mongoose";
 
 const messageSchema = new Schema(

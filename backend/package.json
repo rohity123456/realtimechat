@@ -3,18 +3,12 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon --watch './**/*.ts' --exec 'ts-node -r tsconfig-paths/register' ./app.ts",
+    "start": "nodemon --watch './**/*.ts' --exec 'ts-node -r tsconfig-paths/register' ./src/app.ts",
     "build": "tsc",
     "start-server": "npm run build && node dist/app.js"
   },
   "_moduleAliases": {
-    "@/*": "dist/*",
-    "@/socket": "dist/socket",
-    "@/routes": "dist/routes",
-    "@/models": "dist/models",
-    "@/controllers": "dist/controllers",
-    "@/utils": "dist/utils",
-    "@/middlewares": "dist/middleware"
+    "@": "dist"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",

@@ -10,12 +10,13 @@
     "baseUrl": "./",
     "rootDir": "./",
     "paths": {
-      "@/routes/*": ["routes/*"],
-      "@/socket/*": ["socket/*"],
-      "@/models/*": ["models/*"],
-      "@/controllers/*": ["controllers/*"],
-      "@/utils/*": ["utils/*"],
-      "@/middlewares/*": ["middlewares/*"]
+      "@/*": ["src/*"]
+      // "@/routes/*": ["routes/*"],
+      // "@/socket/*": ["socket/*"],
+      // "@/models/*": ["models/*"],
+      // "@/controllers/*": ["controllers/*"],
+      // "@/utils/*": ["utils/*"],
+      // "@/middlewares/*": ["middlewares/*"]
     }
   }
 }

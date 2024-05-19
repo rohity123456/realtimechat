@@ -1,4 +1,4 @@
-import { ActiveStatus } from "@/utils/constants";
+import { ActiveStatus } from "src/utils/constants";
 
 export interface IUser {
   _id: string;

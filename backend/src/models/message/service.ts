@@ -1,4 +1,4 @@
-import { catchException } from "@/utils/helper";
+import { catchException } from "src/utils/helper";
 import Message from ".";
 import { IMessage } from "./types";
 

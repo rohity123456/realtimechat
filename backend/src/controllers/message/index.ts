@@ -1,6 +1,6 @@
 import { CustomRequest } from "@/middlewares/auth";
 import { createMessage, getMessages } from "@/models/message/service";
-import { sendJSONResponse } from "@/utils/helper";
+import { sendJSONResponse } from "src/utils/helper";
 import { Request, Response } from "express";
 class MessageController {
   getMessages = async (req: Request, res: Response) => {
