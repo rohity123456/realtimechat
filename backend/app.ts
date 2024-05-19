@@ -1,3 +1,4 @@
+import "module-alias/register";
 import express from "express";
 import path from "path";
 import cookieParser from "cookie-parser";
@@ -5,8 +6,8 @@ import logger from "morgan";
 import dotenv from "dotenv";
 import mongoose from "mongoose";
 import http from "http";
-import { initializeSocketIO } from "socket";
-import apiRouter from "@/routes/index";
+import { initializeSocketIO } from "@/socket";
+import apiRouter from "@/routes";
 import cors from "cors";
 
 dotenv.config();

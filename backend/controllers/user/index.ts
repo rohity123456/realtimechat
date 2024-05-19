@@ -9,7 +9,7 @@ import { catchException, sendJSONResponse } from "@/utils/helper";
 import { Request, Response } from "express";
 import Joi from "joi";
 import roomController from "@/controllers/room";
-import SocketManager from "socket";
+import SocketManager from "@/socket/index";
 class UserController {
   signInSchema = Joi.object({
     username: Joi.string().alphanum().min(3).max(30).required(),
